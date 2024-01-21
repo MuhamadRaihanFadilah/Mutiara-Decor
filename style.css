@@ -1,625 +1,625 @@
-    body{
-        margin: 0;
-        background-color: #fff;
-        color: #64748B;
-        font-family: 'Inter', sans-serif;
+body{
+    margin: 0;
+    background-color: #fff;
+    color: #64748B;
+    font-family: 'Inter', sans-serif;
+}
+
+/* background*/
+.bg-biru{
+    background-color: #C0CED9;
+}
+
+.bg-merah{
+    background-color: #FDDCC0;
+}
+
+
+/* text formating */
+a{
+    font-family: 'Inter', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+    color: #141414;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800 !important;
+    line-height: normal;
+    margin: 0;
+}
+
+h2{
+    color: #141414;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
+}
+
+h3{
+    color: #141414;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+}
+
+p{
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin: 0;
+}
+
+.txt-tengah{
+    text-align: center;
+}
+
+.txt-kiri{
+    text-align: left;
+}
+
+
+/* Dimensi */
+.full-h{
+    width: 100%;
+}
+
+
+/* flex */
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gap-r{
+    row-gap: 133px;
+}
+
+
+.tengah-xy{
+    align-items: center;
+    justify-content: center;
+}
+
+.tengah-y{
+    align-items: center;
+}
+
+.tengah-x{
+    justify-content: center;
+}
+
+.gap{
+    gap: 70px 133px;
+}
+
+.judul-sec{
+    margin-bottom: 40px ;
+}
+
+.judul-sec .subtitle{
+    width: 35%;
+}
+
+
+/* padding */
+.padding-kiri-kanan{
+    padding: 0 80px;
+}
+
+
+/* margin */
+.m-100{
+    margin: 0 100px;
+}
+
+.batas{
+    margin-bottom: 250px;
+}
+
+
+/* komponen */
+/* tombol */
+.btn {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+    background-color: #023D69;
+    color: #fff;
+    border: none;
+    padding: 7px 16px;
+    border-radius: 8px;
+}
+
+
+/* card */
+.card{
+    background-color: #fff  ;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.20); 
+}
+
+.produk{
+    width: 81%;
+    border-radius: 15px 15px 0px 0px; 
+}
+
+.produk img{
+    width: 50%;
+}
+
+.produk .info{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+
+/* Nav Bar */
+.top-navbar {
+    background-color: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    right: 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.20);
+}
+
+.logo img {
+    height: 35px;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-direction: row-reverse;
+}
+
+.btn-kontak{
+    margin-left: 35px;
+}
+
+
+
+
+
+/* .jumbotron-sec */
+.jumbotron-sec{
+    margin-top: 60px;
+    height: 808px;
+    background: rgba(255, 137, 28, 0.13);
+    backdrop-filter: blur(35px); 
+    position: relative;
+    z-index: 2;
+    
+}
+
+.jumbotron-sec img{
+    width: 90%;
+}
+
+.jumbotron-sec .judul{
+    color: #3C3C3C;
+    width: 565px;
+    height: 220px;
+}
+
+.jumbotron-sec{
+    margin-top: -30px;
+    justify-content: space-between;
+    flex-direction:row-reverse;
+}
+
+.jumbotron-sec .judul p{
+    width: 90%;
+    margin-top: 10px;
+}
+
+
+/* testimoni */
+.testimoni{
+    margin-top: -120px;
+    position: relative;
+    z-index: 3;
+}
+
+.testimoni .card{
+    width: 55%;
+    border-radius: 10px;
+}
+
+.testimoni .isi{
+    width: 90%;
+    margin-top: 15px;
+}
+
+
+.testimoni .kalimat p{
+    color: #000;
+}
+
+.testimoni .narsum{
+    margin: 30px 0;
+}
+
+.testimoni .narsum .nama{
+    font-size: 20px;
+}
+
+.testimoni .narsum img{
+    margin-right: 19px;
+}
+
+
+/* Prinsip Kami */
+.prinsip{
+    margin-top: 200px;
+}
+
+
+
+/* kartu */
+.portfo1{
+    background-image: linear-gradient(90deg, rgba(6, 6, 6, 0.64) 18.75%, rgba(6, 6, 6, 0.00) 100%),url(/img/Interior/portfo1.jpg);
+}
+
+.portfo2{
+    background-image: linear-gradient(90deg, rgba(6, 6, 6, 0.64) 18.75%, rgba(6, 6, 6, 0.00) 100%),url(/img/Interior/portfo2.jpg);
+}
+
+.portfo3{
+    background-image: linear-gradient(90deg, rgba(6, 6, 6, 0.64) 18.75%, rgba(6, 6, 6, 0.00) 100%),url(/img/Interior/portfo3.jpg);
+}
+
+.portfo4{
+    background-image: linear-gradient(90deg, rgba(6, 6, 6, 0.64) 18.75%, rgba(6, 6, 6, 0.00) 100%),url(/img/Interior/portfo4.jpg);
+}
+
+.kartu{
+    width: 98%;
+    height: 584px;
+    box-shadow:  0px 0px 30px rgba(0, 0, 0, 0.25);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    margin: 25px 0;
+}
+
+.kartu .info{
+    margin-left: 80px;
+    width: 40%;
+}
+
+.judul-produk{
+    margin-bottom: 125px;
+    margin-top: 190px;
+}
+
+.produk .info li{
+    color: #070915;
+    margin-bottom: 5px;
+}
+
+
+
+/* instagram  */
+.instagram-sec{
+    margin-top: 255px;
+    margin-bottom: 320px;
+}
+
+.instagram-sec .container{
+    width: 60%;
+}
+
+.instagram-sec h2{
+    margin-bottom: 23px;
+}
+
+.instagram-sec .subtitle{
+    margin-bottom: 38px;
+}
+
+.instagram-sec .kotak-ig{
+    border-radius: 15px;
+    border: 1px solid #B3B3B3;
+    padding: 8px;
+}
+
+.nama-akun{
+    color: #141414;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.instagram-sec .kotak-ig .btn-follow{
+    text-align: left;
+    padding: 5px 14px;
+}
+
+
+.instagram-sec .kotak-ig img{
+    height: 100%;
+}
+
+.instagram-sec .foto-foto img{
+    margin-top: 90px;
+    width: 90%;
+}
+
+
+/* .akhir */
+.akhir{
+    background-color: #022036;
+    color: #fff;
+    /* font-size: 16px; */
+}
+
+.akhir h2{
+    color: #fff;
+}
+
+.akhir .logo-akhir img{
+    width: 125px;
+    margin-top: -62px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.20); 
+}
+
+.akhir .icon{
+    margin-right: 25px;
+}
+
+.akhir .row{
+    padding-bottom: 100px;
+}
+
+.copyright{
+    background-color: #070915;
+    height: 70px;
+    font-size: 13px;
+}
+
+.muncul {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+@media screen and (min-width: 900px) {
+    .col-1{
+        flex-basis: 8%;
     }
-     
-    /* background*/
-    .bg-biru{
-        background-color: #C0CED9;
+    
+    .col-2{
+        flex-basis: 16%;
     }
-     
-    .bg-merah{
-        background-color: #FDDCC0;
+
+    .col-3{
+        flex-basis: 25%;
     }
-     
-     
-    /* text formating */
-    a{
-        font-family: 'Inter', sans-serif;
-        color: black;
-        text-decoration: none;
+
+    .col-4{
+        flex-basis: 33%;
     }
-     
-    h1{
-        font-family: 'Inter', sans-serif;
-        color: #141414;
-        font-family: Inter;
-        font-size: 48px;
-        font-style: normal;
-        font-weight: 800 !important;
-        line-height: normal;
-        margin: 0;
+
+    .col-5{
+        flex-basis: 41%;
     }
-     
-    h2{
-        color: #141414;
-        font-family: Inter;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: normal;
-        margin: 0;
+
+    .col-6{
+        flex-basis: 50%;
     }
-     
-    h3{
-        color: #141414;
-        font-family: Inter;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 150%; /* 30px */
+
+    .col-7{
+        flex-basis: 59%;
     }
-     
-    p{
-        font-family: Inter;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%; /* 24px */
-        margin: 0;
+
+    .col-8{
+        flex-basis: 67%;
     }
-     
-    .txt-tengah{
-        text-align: center;
+
+    .col-9{
+        flex-basis: 75%;
     }
-     
-    .txt-kiri{
-        text-align: left;
+
+    .col-10{
+        flex-basis: 84%;
     }
-     
-     
-    /* Dimensi */
-    .full-h{
-        width: 100%;
+
+    .col-11{
+        flex-basis: 92%;
     }
-     
-     
-    /* flex */
-    .d-flex{
-        display: flex;
-        flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 900px) {
+    .col-sedang-1{
+        flex-basis: 8%;
     }
-     
-    .row{
-        display: flex;
-        flex-wrap: wrap;
+    
+    .col-sedang-2{
+        flex-basis: 16%;
     }
-     
-    .gap-r{
-        row-gap: 133px;
+
+    .col-sedang-3{
+        flex-basis: 25%;
     }
-     
-     
-    .tengah-xy{
-        align-items: center;
-        justify-content: center;
+
+    .col-sedang-4{
+        flex-basis: 33%;
     }
-     
-    .tengah-y{
-        align-items: center;
+
+    .col-sedang-5{
+        flex-basis: 41%;
     }
-     
-    .tengah-x{
-        justify-content: center;
+
+    .col-sedang-6{
+        flex-basis: 50%;
     }
-     
-    .gap{
-        gap: 70px 133px;
+
+    .col-sedang-7{
+        flex-basis: 59%;
     }
-     
-    .judul-sec{
-        margin-bottom: 40px ;
+
+    .col-sedang-8{
+        flex-basis: 67%;
     }
-     
+
+    .col-sedang-9{
+        flex-basis: 75%;
+    }
+
+    .col-sedang-10{
+        flex-basis: 84%;
+    }
+
+    .col-sedang-11{
+        flex-basis: 92%;
+    }
+    
+    .col-sedang-12{
+        flex-basis: 100%;
+    }
+
+    .judul-sec h2{
+        font-size: 24px;
+    }
+
     .judul-sec .subtitle{
-        width: 35%;
-    }
-     
-     
-    /* padding */
-    .padding-kiri-kanan{
-        padding: 0 80px;
-    }
-     
-     
-    /* margin */
-    .m-100{
-        margin: 0 100px;
-    }
-     
-    .batas{
-        margin-bottom: 250px;
-    }
-     
-     
-    /* komponen */
-    /* tombol */
-    .btn {
-        font-family: 'Source Sans 3', sans-serif;
-        font-weight: bold;
-        background-color: #023D69;
-        color: #fff;
-        border: none;
-        padding: 7px 16px;
-        border-radius: 8px;
-    }
-     
-     
-    /* card */
-    .card{
-        background-color: #fff  ;
-        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.20); 
-    }
-     
-    .produk{
-        width: 81%;
-        border-radius: 15px 15px 0px 0px; 
-    }
-     
-    .produk img{
-        width: 50%;
-    }
-     
-    .produk .info{
-        margin-left: 50px;
-        margin-top: 50px;
-        margin-bottom: 75px;
-    }
-     
-     
-    /* Nav Bar */
-    .top-navbar {
-        background-color: #fff;
-        height: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 50px;
-        position: fixed;
-        z-index: 5;
-        left: 0;
-        top: 0;
-        right: 0;
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.20);
-    }
-     
-    .logo img {
-        height: 35px;
-    }
-     
-    .nav-menu {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        flex-direction: row-reverse;
-    }
-     
-    .btn-kontak{
-        margin-left: 35px;
-    }
-     
-     
-     
-     
-     
-    /* .jumbotron-sec */
-    .jumbotron-sec{
-        margin-top: 60px;
-        height: 808px;
-        background: rgba(255, 137, 28, 0.13);
-        backdrop-filter: blur(35px); 
-        position: relative;
-        z-index: 2;
-        
-    }
-     
-    .jumbotron-sec img{
-        width: 90%;
-    }
-     
-    .jumbotron-sec .judul{
-        color: #3C3C3C;
-        width: 565px;
-        height: 220px;
-    }
-     
-    .jumbotron-sec{
-        margin-top: -30px;
-        justify-content: space-between;
-        flex-direction:row-reverse;
-    }
-     
-    .jumbotron-sec .judul p{
-        width: 90%;
-        margin-top: 10px;
-    }
-     
-     
-    /* testimoni */
-    .testimoni{
-        margin-top: -120px;
-        position: relative;
-        z-index: 3;
-    }
-     
-    .testimoni .card{
-        width: 55%;
-        border-radius: 10px;
-    }
-     
-    .testimoni .isi{
-        width: 90%;
-        margin-top: 15px;
-    }
-     
-     
-    .testimoni .kalimat p{
-        color: #000;
-    }
-     
-    .testimoni .narsum{
-        margin: 30px 0;
-    }
-     
-    .testimoni .narsum .nama{
-        font-size: 20px;
-    }
-     
-    .testimoni .narsum img{
-        margin-right: 19px;
-    }
-     
-     
-    /* Prinsip Kami */
-    .prinsip{
-        margin-top: 200px;
-    }
-     
-     
-     
-    /* kartu */
-    .portfo1{
-        background-image: linear-gradient(90deg, rgba(6, 6, 6, 0.64) 18.75%, rgba(6, 6, 6, 0.00) 100%),url(/img/Interior/portfo1.jpg);
-    }
-     
-    .portfo2{
-        background-image: linear-gradient(90deg, rgba(6, 6, 6, 0.64) 18.75%, rgba(6, 6, 6, 0.00) 100%),url(/img/Interior/portfo2.jpg);
-    }
-     
-    .portfo3{
-        background-image: linear-gradient(90deg, rgba(6, 6, 6, 0.64) 18.75%, rgba(6, 6, 6, 0.00) 100%),url(/img/Interior/portfo3.jpg);
-    }
-     
-    .portfo4{
-        background-image: linear-gradient(90deg, rgba(6, 6, 6, 0.64) 18.75%, rgba(6, 6, 6, 0.00) 100%),url(/img/Interior/portfo4.jpg);
-    }
-     
-    .kartu{
-        width: 98%;
-        height: 584px;
-        box-shadow:  0px 0px 30px rgba(0, 0, 0, 0.25);
-        background-position-x: center;
-        background-position-y: center;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        overflow: hidden;
-        margin: 25px 0;
-    }
-     
-    .kartu .info{
-        margin-left: 80px;
-        width: 40%;
-    }
-     
-    .judul-produk{
-        margin-bottom: 125px;
-        margin-top: 190px;
-    }
-     
-    .produk .info li{
-        color: #070915;
-        margin-bottom: 5px;
-    }
-     
-     
-     
-    /* instagram  */
-    .instagram-sec{
-        margin-top: 255px;
-        margin-bottom: 320px;
-    }
-     
-    .instagram-sec .container{
         width: 60%;
     }
-     
-    .instagram-sec h2{
-        margin-bottom: 23px;
+
+    .kecil-tengah-y{
+        justify-content: center;
     }
-     
-    .instagram-sec .subtitle{
-        margin-bottom: 38px;
+
+    .gap-r{
+        row-gap: 50px;
     }
-     
-    .instagram-sec .kotak-ig{
-        border-radius: 15px;
-        border: 1px solid #B3B3B3;
-        padding: 8px;
+
+    h2{
+        font-size: 30px;
     }
-     
-    .nama-akun{
-        color: #141414;
-        font-size: 24px;
-        margin-bottom: 5px;
+
+    .batas{
+        margin-bottom: 150px;
     }
-     
-    .instagram-sec .kotak-ig .btn-follow{
-        text-align: left;
-        padding: 5px 14px;
+
+    .tengah-sedang-x{
+        justify-content: center;
     }
-     
-     
-    .instagram-sec .kotak-ig img{
-        height: 100%;
+
+    .top-navbar{
+        padding: 0 10px;
+        height: auto !important;
+        padding-bottom: 10px;
     }
-     
-    .instagram-sec .foto-foto img{
-        margin-top: 90px;
-        width: 90%;
-    }
-     
-     
-    /* .akhir */
-    .akhir{
-        background-color: #022036;
-        color: #fff;
-        /* font-size: 16px; */
-    }
-     
-    .akhir h2{
-        color: #fff;
-    }
-     
-    .akhir .logo-akhir img{
-        width: 125px;
-        margin-top: -62px;
-        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.20); 
-    }
-     
-    .akhir .icon{
-        margin-right: 25px;
-    }
-     
-    .akhir .row{
-        padding-bottom: 100px;
-    }
-     
-    .copyright{
-        background-color: #070915;
-        height: 70px;
+
+    .top-navbar a{
         font-size: 13px;
+        padding: 3px 20%;
+        margin-left: 0;
+        margin-top: 5px;
     }
-     
-    .muncul {
-        opacity: 0;
-        transform: translateY(100px);
-        transition: opacity 0.5s, transform 0.5s;
+
+    /* .jumbotron-sec */
+    .jumbotron-sec h1{
+        font-size: 38px;
+        margin-top: 20px;
     }
-     
-    .show {
-        opacity: 1;
-        transform: translateY(0);
+
+    .jumbotron-sec .judul p{
+        width: 100%;
+        font-size: 15px;
     }
-     
-     
-    @media screen and (min-width: 900px) {
-        .col-1{
-            flex-basis: 8%;
-        }
-        
-        .col-2{
-            flex-basis: 16%;
-        }
-     
-        .col-3{
-            flex-basis: 25%;
-        }
-     
-        .col-4{
-            flex-basis: 33%;
-        }
-     
-        .col-5{
-            flex-basis: 41%;
-        }
-     
-        .col-6{
-            flex-basis: 50%;
-        }
-     
-        .col-7{
-            flex-basis: 59%;
-        }
-     
-        .col-8{
-            flex-basis: 67%;
-        }
-     
-        .col-9{
-            flex-basis: 75%;
-        }
-     
-        .col-10{
-            flex-basis: 84%;
-        }
-     
-        .col-11{
-            flex-basis: 92%;
-        }
+
+    .jumbotron-sec{
+        margin-top: 70px;
+        padding-bottom: 220px;
     }
-     
-     
-    @media screen and (max-width: 900px) {
-        .col-sedang-1{
-            flex-basis: 8%;
-        }
-        
-        .col-sedang-2{
-            flex-basis: 16%;
-        }
-     
-        .col-sedang-3{
-            flex-basis: 25%;
-        }
-     
-        .col-sedang-4{
-            flex-basis: 33%;
-        }
-     
-        .col-sedang-5{
-            flex-basis: 41%;
-        }
-     
-        .col-sedang-6{
-            flex-basis: 50%;
-        }
-     
-        .col-sedang-7{
-            flex-basis: 59%;
-        }
-     
-        .col-sedang-8{
-            flex-basis: 67%;
-        }
-     
-        .col-sedang-9{
-            flex-basis: 75%;
-        }
-     
-        .col-sedang-10{
-            flex-basis: 84%;
-        }
-     
-        .col-sedang-11{
-            flex-basis: 92%;
-        }
-        
-        .col-sedang-12{
-            flex-basis: 100%;
-        }
-     
-        .judul-sec h2{
-            font-size: 24px;
-        }
-     
-        .judul-sec .subtitle{
-            width: 60%;
-        }
-     
-        .kecil-tengah-y{
-            justify-content: center;
-        }
-     
-        .gap-r{
-            row-gap: 50px;
-        }
-     
-        h2{
-            font-size: 30px;
-        }
-     
-        .batas{
-            margin-bottom: 150px;
-        }
-     
-        .tengah-sedang-x{
-            justify-content: center;
-        }
-     
-        .top-navbar{
-            padding: 0 10px;
-            height: auto !important;
-            padding-bottom: 10px;
-        }
-     
-        .top-navbar a{
-            font-size: 13px;
-            padding: 3px 20%;
-            margin-left: 0;
-            margin-top: 5px;
-        }
-     
-        /* .jumbotron-sec */
-        .jumbotron-sec h1{
-            font-size: 38px;
-            margin-top: 20px;
-        }
-     
-        .jumbotron-sec .judul p{
-            width: 100%;
-            font-size: 15px;
-        }
-     
-        .jumbotron-sec{
-            margin-top: 70px;
-            padding-bottom: 220px;
-        }
-     
-        .jumbotron-sec .judul{
-            margin-top: -100px;
-        }
-     
-        /* testimoni */
-        .testimoni{
-            margin-top: -40px;
-        }
-     
-        .testimoni .card{
-            width: 80%;
-        }
-     
-        .prinsip{
-            margin-top: 100px;
-        }
-     
-        /* produk */
-        .judul-produk{
-            margin-top: 180px !important;
-            margin-bottom: 60px;
-        }
-     
-        /* instagram */
-        .instagram-sec{
-            margin-top: 150px;
-            margin-bottom: 250px;
-        }
-     
-        /* .akhir responsif */
-        .akhir .logo-akhir img{
-            width: 70px;
-            margin-top: -35px;
-        }
-     
-        .akhir .info h2{
-            font-size: 21px;
-            text-align: center;
-        }
-     
-        .akhir .info p{
-            font-size: 12px;
-            text-align: center;
-        }
-     
-        .akhir .icon img{
-            width: 20%;
-            margin-top: 40px;
-            margin-bottom: 10px;
-        }
-     
-        .akhir .icon{
-            margin-right: 0;
-        }
+
+    .jumbotron-sec .judul{
+        margin-top: -100px;
     }
-     
+
+    /* testimoni */
+    .testimoni{
+        margin-top: -40px;
+    }
+
+    .testimoni .card{
+        width: 80%;
+    }
+
+    .prinsip{
+        margin-top: 100px;
+    }
+
+    /* produk */
+    .judul-produk{
+        margin-top: 180px !important;
+        margin-bottom: 60px;
+    }
+
+    /* instagram */
+    .instagram-sec{
+        margin-top: 150px;
+        margin-bottom: 250px;
+    }
+
+    /* .akhir responsif */
+    .akhir .logo-akhir img{
+        width: 70px;
+        margin-top: -35px;
+    }
+
+    .akhir .info h2{
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .akhir .info p{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .akhir .icon img{
+        width: 20%;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    .akhir .icon{
+        margin-right: 0;
+    }
+}
+
